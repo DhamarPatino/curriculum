@@ -49,6 +49,7 @@ nav li a {
   text-decoration: none;   /* Quita el subrayado de los enlaces */
   color: black;            /* Color del texto */
   padding: 10px 5px;
+  font-weight: 600;
 }
 
 a {
