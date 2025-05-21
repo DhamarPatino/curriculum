@@ -2,7 +2,7 @@
 <html>
     <head lang="es"> 
         <title>Curriculum Vitae de Dhamar Patiño</title>
-       <!-- <link href="styles.css" rel="stylesheet"> -->
+        <link href="styles.css" rel="stylesheet"> 
         <meta charset="UTF-8"> <!---utf-8: para que conozca los caractes-->
         <meta name="viewport" content="width=device-width">
         <meta name="keywords" content="CV, Curriculum">
@@ -12,15 +12,16 @@
 
         
     <body>
+        <div class="container">
         <header>
             <h1>Curriculum Vitae</h1>
             <h1>Dhamar Patiño</h1>
-            <p>Ingenieria en Computación | dhamar_pc@hotmail.com | - </p>
+            <p>Ingenieria en Computación | dhamar_pc@hotmail.com </p>
         </header>
         <section class="imagen">
-            <img src="https://placehold.co/600x400" alt="Foto de Dhamar Patiño" width="200" height="200">
+            <img class="fotoperfil" src="foto perfil.jpg" alt="Foto de Dhamar Patiño" width="200" height="170">
             <figcaption>Foto Perfil</figcaption>
-            
+           </div> 
         <section class="banner">
             <hr>
             <nav>
@@ -30,6 +31,7 @@
                     <li><a href="#educacion">Educación</a></li>
                     <li><a href="#habilidades">Habilidades</a></li>
                     <li><a href="#referencias">Referencias</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
                 </ul>
             </nav>
             <hr>
@@ -54,12 +56,12 @@
                     <p class="descrip">Juego interactivo donde la computadora intenta adivinar el animal en el que piensa el usuario, utilizando un árbol de decisión binario.</p>
                     <h4>Tecnologías Utilizadas:</h4>
                     <ul>
-                        <li><strong>Java: </strong><p>Utilizado para la programación del árbol binario, el flujo lógico de las preguntas, y la lógica de búsqueda y comparación de respuestas del usuario.</p></li>
-                        <li><strong>Javafx: </strong><p>Empleado para el diseño de la interfaz gráfica, donde el usuario interactúa con botones y cuadros de texto para responder las preguntas.</p></li>
-                        <li><strong>CSS: </strong><p>Utilizado para dar estilo a la interfaz gráfica, asegurando que sea atractiva y fácil de usar.</p></li>
+                        <li><span class="negrita">Java: </span><p>Utilizado para la programación del árbol binario, el flujo lógico de las preguntas, y la lógica de búsqueda y comparación de respuestas del usuario.</p></li>
+                        <li><span class="negrita">Javafx: </span><p>Empleado para el diseño de la interfaz gráfica, donde el usuario interactúa con botones y cuadros de texto para responder las preguntas.</p></li>
+                        <li><span class="negrita">CSS: </span><p>Utilizado para dar estilo a la interfaz gráfica, asegurando que sea atractiva y fácil de usar.</p></li>
                     </ul>
                     <iframe width="560" height="315" 
-                        src="https://www.youtube.com/embed/ID_DEL_VIDEO" 
+                        src="https://youtu.be/fKFDa9Cyg6s?si=sZyGiHKrUTssJFwo" 
                         title="Video de ejemplo"
                         frameborder="0" 
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
@@ -81,10 +83,10 @@
                     </ol>
                     <h4>Tecnologías Utilizadas:</h4>
                     <ul>
-                        <li><strong>Java:</strong><p>Para construir la lógica de la aplicación, incluyendo el manejo de eventos, las validaciones y la interacción con la base de datos.</p></li>
-                        <li><strong>SQL(MySQL):</strong><p> Utilizado para el diseño y manejo de la base de datos, permitiendo almacenar la información de productos, stock, proveedores y movimientos.</p></li>
-                        <li><strong>JDBC:</strong><p>Para establecer la conexión entre Java y la base de datos y realizar operaciones CRUD (crear, leer, actualizar, eliminar).</p></li>
-                        <li><strong>CleverCloud: </strong><p>Implementación de la base de datos MySQL en la nube para manejar el almacenamiento de los datos de manera escalable y accesible desde cualquier lugar. 
+                        <li><span class="negrita">Java:</span><p>Para construir la lógica de la aplicación, incluyendo el manejo de eventos, las validaciones y la interacción con la base de datos.</p></li>
+                        <li><span class="negrita">SQL(MySQL):</span><p> Utilizado para el diseño y manejo de la base de datos, permitiendo almacenar la información de productos, stock, proveedores y movimientos.</p></li>
+                        <li><span class="negrita">JDBC:</span><p>Para establecer la conexión entre Java y la base de datos y realizar operaciones CRUD (crear, leer, actualizar, eliminar).</p></li>
+                        <li><span class="negrita">CleverCloud: </span><p>Implementación de la base de datos MySQL en la nube para manejar el almacenamiento de los datos de manera escalable y accesible desde cualquier lugar. 
                             </p></li>
                     </ul>
                     
@@ -96,8 +98,8 @@
                     <p class="descrip">Aplicación que permite comprimir y descomprimir archivos (PDF, JPG, PNG, WAV) mediante el algoritmo de Huffman.</p>
                     <h4>Tecnologias Utilizadas</h4>
                     <ul>
-                        <li><strong>Java: </strong><p>Para implementar el algoritmo de Huffman, la manipulación de bits, árboles binarios y el manejo de archivos.</p></li>
-                        <li><strong>Estructura de datos: Se utilizaron colas de prioridad y árboles binarios para la codificación y decodificación eficiente de la información.</strong></li>
+                        <li><span class="negrita">Java: </span><p>Para implementar el algoritmo de Huffman, la manipulación de bits, árboles binarios y el manejo de archivos.</p></li>
+                        <li><span class="negrita">Estructura de datos:</span><p>Se utilizaron colas de prioridad y árboles binarios para la codificación y decodificación eficiente de la información.</p></li>
                     </ul>
                     <span>📁 Colaborativo / Proyecto académico</span>
                 </dd>
@@ -108,8 +110,8 @@
         <!-- Sección Educación -->
         <section id="educacion">
             <h2>Educación</h2>
-            <p><strong>Ingenieria en Computación</strong> - Escuela Superior Politécnica del Litoral (2023- Actualmente 5to semestre)</p>
-            <p><strong>Curso de Ciberseguridad</strong> - Cisco (2019)</p>
+            <p><span class="negrita">Ingenieria en Computación</span> - Escuela Superior Politécnica del Litoral (2023- Actualmente 5to semestre)</p>
+            <p><span class="negrita">Curso de Ciberseguridad</spam> - Cisco (2019)</p>
         </section>
 
         <table style="border-collapse: collapse; width: 60%;">
@@ -134,9 +136,9 @@
         <section id="habilidades">
             <h2>Habilidades</h2>
             <ul>
-        <li><strong>Desarrollo Frontend:</strong> HTML, CSS, JavaScript</li>
-        <li><strong>Desarrollo Backend:</strong> Java, Python, SQL</li>
-        <li><strong>Diseño Gráfico:</strong> Adobe Photoshop</li>
+        <li><span class="negrita">Desarrollo Frontend:</span> HTML, CSS, JavaScript</li>
+        <li><span class="negrita">Desarrollo Backend:</span> Java, Python, SQL</li>
+        <li><span class="negrita">Diseño Gráfico:</span> Adobe Photoshop</li>
             </ul>
         </section>
 
@@ -144,36 +146,38 @@
             <h2>Referencias</h2>
             <div>
                 <blockquote>
-                "Dhamar demostró gran responsabilidad y creatividad en el desarrollo de nuestro sistema de inventario."
+                "Dhamar demostró un alto nivel de responsabilidad y pensamiento estructurado durante el desarrollo del sistema de inventario que trabajamos en Fundamentos de Sistemas Digitales. Su capacidad para integrar lógica digital con simulaciones fue clave para lograr nuestro objetivo."
                 </blockquote>
-                <p><strong>Ing. María Torres</strong><br>
-                Gerente de Tecnología, Comercial XYZ<br>
-                Trabajó con Dhamar en la implementación de soluciones de software para la gestión de inventarios, destacando su capacidad de análisis y trabajo en equipo.</p>
+                <p><span class="negrita">Natasha Peñafiel</span><br>
+                Compañera de equipo, Proyecto de Sistemas Digitales<br>
+                Colaboró con Dhamar en el diseño de un circuito lógico funcional para la gestión de inventarios, destacando su enfoque técnico y compromiso.</p>
             </div>
             <div>
                 <blockquote>
-                "Su habilidad para resolver problemas y adaptarse a nuevas tecnologías fue clave para el éxito del proyecto."
+                "Trabajar con Dhamar en el juego de las adivinanzas fue muy valioso. Su enfoque recursivo para construir el árbol de decisiones y su capacidad para adaptar la lógica a diferentes tipos de preguntas permitió que el juego funcionara de manera dinámica e intuitiva."
                 </blockquote>
-                <p><strong>Lic. Juan Pérez</strong><br>
-                Coordinador de Proyectos, EducaTech<br>
-                Colaboró con Dhamar en el desarrollo de una plataforma educativa, resaltando su proactividad y compromiso.</p>
+                <p><span>Paul Perdomo</span><br>
+                Compañero de equipo, Proyecto de Matemática Discreta<br>
+                Participó con Dhamar en la implementación de un juego basado en árboles binarios de decisión, destacando su lógica, creatividad y habilidades en Java.</p>
             </div>
             <div>
                 <blockquote>
-                "Siempre mostró una actitud positiva y disposición para aprender, aportando ideas innovadoras al equipo."
+                "Durante el desarrollo de nuestro proyecto con base de datos en MySQL, Dhamar tuvo un rol clave en la estructuración de las consultas y la normalización de tablas. Además, se aseguró de que la integración con la aplicación se realizara sin errores, lo cual fue esencial para el funcionamiento del sistema."
                 </blockquote>
-                <p><strong>Mgs. Andrea López</strong><br>
-                Líder de Desarrollo, Soluciones Digitales<br>
-                Supervisó a Dhamar en prácticas preprofesionales, valorando su ética profesional y habilidades técnicas.</p>
+                <p><span class="negrita">Marlo Valle</span><br>
+                Compañero de equipo, Proyecto de Diseño de Software<br>
+                Trabajó junto a Dhamar en la creación de un sistema conectado a una base de datos MySQL, destacando su enfoque analítico y habilidades en back-end.</p>
             </div>
         </section>
 
         <!-- Sección Contacto -->
+         <hr>
         <section id="contacto">
             <h2>Contacto</h2>
             <p>Email: dapatino@espol.edu.ec</p>
             <p>Teléfono: 123-456-789</p>
             <h3>Envíame un mensaje</h3>
+
             <form action="#" method="post">
                 <label for="nombre">Nombre:</label><br>
                 <input type="text" id="nombre" name="nombre" required><br><br>
@@ -181,29 +185,33 @@
                 <label for="email">Correo electrónico:</label><br>
                 <input type="email" id="email" name="email" required><br><br>
 
-                
+                <fieldset>  
+                    <legend>Intereses</legend>
+
+                    <label>Áreas de interés:</label>
+
+                    <!-- Vector de valores (checkbox) -->
+                    <input type="checkbox" id="frontend" name="intereses[]" value="frontend" required>
+                    <label for="frontend">Frontend</label>
+
+                    <input type="checkbox" id="backend" name="intereses[]" value="backend" required>
+                    <label for="backend">Backend</label>
+
+                    <input type="checkbox" id="diseno" name="intereses[]" value="diseno" required>      
+                    <label for="backend">Diseño</label>
+                    <input type="checkbox" id="datos" name="intereses[]" value="datos" required>
+                    <label for="datos">Datos</label>
+                </fieldset>
+                <label for="motivo">Motivo de contacto:</label><br>
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje" rows="4" required></textarea><br><br>
+                <!--
                 <select id="motivo" name="motivo" required>
                 <option value="">Seleccione una opción</option>
                 <option value="consulta">Consulta</option>
                 <option value="colaboracion">Colaboración</option>
-                <option value="otro">Otro</option>
-
-                <fieldset>  
-                <legend>Intereses</legend>
-                <!-- Vector de valores (checkbox) -->
-                <label>Áreas de interés:</label><br>
-                <input type="checkbox" id="frontend" name="intereses[]" value="frontend" required>
-                <label for="frontend">Frontend</label>
-                <input type="checkbox" id="backend" name="intereses[]" value="backend" required>
-                <label for="backend">Backend</label>
-                <input type="checkbox" id="datos" name="intereses[]" value="datos" required>
-                <label for="datos">Datos</label>
-                </fieldset>
-
-                <label for="motivo">Motivo de contacto:</label><br>
-                <label for="mensaje">Mensaje:</label>
-                <textarea id="mensaje" name="mensaje" rows="4" required></textarea><br><br>
-                
+                <option value="otro">Otro</option><br>
+                -->
                 <button type="submit">Enviar</button>
             </form>
             <hr>
