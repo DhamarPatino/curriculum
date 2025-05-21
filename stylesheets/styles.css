@@ -1,13 +1,27 @@
+* {
+    font-family:Unna, “Segoe UI”, Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#photo {
+    width: 8vw;
+    height: auto;
+}
+
+.subtitle {
+    color: rgba(151, 156, 165, 0.938);
+    text-transform: uppercase;
+}
+
 body {
     margin: 15px; 
-    background-color: cornsilk;
     text-align: justify;
-    border: 2px solid antiquewhite ;
     padding: 15px;
 }
 header {
     margin: 5px;
     color:darkcyan;
+    text-align: left;
+    font-weight: blod;
 }
 
 .container {
@@ -35,7 +49,7 @@ header p {
     text-indent: 10px;
     font-size: 16px;
 }
-nav ul {
+nav > ul {
   list-style: none;        /* Quita los puntos de la lista */   
   padding: 14px;           /* Elimina el espacio interno */
   margin: 0;               /* Elimina márgenes por defecto */
@@ -90,4 +104,16 @@ fieldset {
 legend {
   font-weight: bold;
   padding: 0 10px;
+}
+
+
+footer p {
+    text-align: right;
+    font-style: italic;
+}
+section {
+    border: 0.2pt solid #cedddd;
+    margin: 4px 2px 8px 2px;
+    padding: 1.5% 0.8%;
+    margin-bottom: 1.2rem;
 }
