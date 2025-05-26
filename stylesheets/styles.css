@@ -1,14 +1,17 @@
 * {
     font-family:Unna, “Segoe UI”, Tahoma, Geneva, Verdana, sans-serif;
+
 }
 
-#photo {
-    width: 10vw;
-    height: auto;
+body {
+    width: 80%;
+    margin: 15px auto; 
+    text-align: justify;
+    padding: 15px;
 }
 
 .subtitle {
-    color: rgba(151, 156, 165, 0.938);
+    color: rgba(84, 86, 90, 0.938);
     text-transform: uppercase;
 }
 nav >ul {
@@ -25,39 +28,62 @@ nav >ul {
     border-right: none;
     margin: none;
 }
-
-body {
-    margin: 15px; 
-    text-align: justify;
-    padding: 15px;
+nav > ul > li{
+    font-size: 17px;
+    font-weight: 300;
 }
+
+
 header {
     margin: 5px;
     color:darkcyan;
     text-align: left;
-    font-weight: blod;
 }
+header > h1 {
+    font-size: 40px;
+    margin-top: 10px;
+    margin-bottom: -10px;
+    color: darkcyan;
+    text-align: center;
+}
+header > p {
+    font-size: 15px;
+    color: cadetblue;
 
+}
+/* Ajusta el espacio de la foto con el titulo*/
 .container {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
 
 }
+
+#photo {
+    width: 10vw;
+    height: auto;
+    border: 2px;
+}
 figcaption {
     text-align: center;
-    font-size: 14px;
+    font-size: 13px;
     color: cadetblue;
 }
 
-h1 {
-    font-size: 35px;
-    margin-bottom: -20px;
+.video-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem 0;
 }
-header p {
-    margin-top: 25px;
-    text-align: center;
+.video-container iframe {
+    display: block;
+    width: 40%;
+    height: 200px;
+    border: 2px solid #ccc;
 }
+
+
 
 #Perfil-profesional p {
     text-indent: 10px;
