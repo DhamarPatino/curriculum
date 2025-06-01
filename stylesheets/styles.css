@@ -23,19 +23,21 @@ main {
     font-size: 22px;
 }
 nav >ul {
+    list-style: none;
+    padding: 14px;
+    margin: 0;
     display: flex;
     justify-content: space-evenly;
-    gap: 1rem;
+    gap: 20px;
+    font-size: 16px;
     align-items: center;
     flex-direction: row;
     flex-wrap: wrap;
     border: 2px solid black;
     background-color: #f0f0f0;
-    padding: 10px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     border-left: none;
     border-right: none;
-    margin: none;
 }
 nav > ul > li{
     font-size: 18px;
@@ -378,24 +380,23 @@ footer p {
   font-weight: 600;
   color: #222;
   min-width: 180px;
-  margin-right: 8px;
+  margin-right: 4px;
 }
 
 .campo input[type="text"],
 .campo input[type="email"] {
   flex: 1;
-  padding: 7px 10px;
+  padding: 7px 7px;
   font-size: 20px;
   border: 1px solid #ccc;
   border-radius: 4px;
 }
 
-/* Para los select y textarea en .campo-form */
 .campo-form {
   display: flex;
   align-items: center;
   gap: 10px;
-  margin-bottom: 12px;
+  margin-bottom: 20px;
 }
 
 .campo-form label {
